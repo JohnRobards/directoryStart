@@ -16,14 +16,16 @@
 
       <h2>Suggest a Place</h2>
 
-      <form>
-      Name:<br>
-      <input type="text" name="name" value="Name"><br>
-      Phone #:<br>
-      <input type="text" name="number" value="Number"><br>
-      Description:<br>
-      <input type="text" name="description" value="Description" size="50"><br><br>
-      <input type="submit" value="Send">
+      <form action="//formspree.io/jrobards@wustl.edu" method="POST">
+        <label>Name:</label><br>
+        <input type="text" name="name" value="Name"><br>
+        <label>Phone #:</label><br>
+        <input type="text" name="number" value="Number"><br>
+        <label>Email:</label><br>
+        <input type="text" name="email" value="Email"><br>
+        <label>Description:</label><br>
+        <input type="text" name="description" value="Description" size="50"><br><br>
+        <input type="submit" value="Send">
       </form>
 
     </div>
